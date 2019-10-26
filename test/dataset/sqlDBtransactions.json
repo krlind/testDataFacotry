@@ -1,5 +1,5 @@
 {
-	"name": "AzureSqlTable1",
+	"name": "sqlDBtransactions",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "ConnectionToAzureServerSqldb",
