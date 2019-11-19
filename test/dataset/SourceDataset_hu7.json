@@ -1,0 +1,131 @@
+{
+	"name": "SourceDataset_hu7",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sqlserverishDWconnection",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Region",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "Country",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "Product Category",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "Campaign ID",
+				"type": "float",
+				"precision": 53,
+				"scale": 0
+			},
+			{
+				"name": "Campaign Name",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "Qualification",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "Status",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "Qualification Number",
+				"type": "float",
+				"precision": 53,
+				"scale": 0
+			},
+			{
+				"name": "Lead Status",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "Leads",
+				"type": "float",
+				"precision": 53,
+				"scale": 0
+			},
+			{
+				"name": "Cost",
+				"type": "float",
+				"precision": 53,
+				"scale": 0
+			},
+			{
+				"name": "Marketing Cost",
+				"type": "float",
+				"precision": 53,
+				"scale": 0
+			},
+			{
+				"name": "Revenue",
+				"type": "float",
+				"precision": 53,
+				"scale": 0
+			},
+			{
+				"name": "Profit",
+				"type": "float",
+				"precision": 53,
+				"scale": 0
+			},
+			{
+				"name": "ROI",
+				"type": "float",
+				"precision": 53,
+				"scale": 0
+			},
+			{
+				"name": "Lead Generation (%)",
+				"type": "float",
+				"precision": 53,
+				"scale": 0
+			},
+			{
+				"name": "Campaign Tactic",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "Customer Segment",
+				"type": "nvarchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "Revenue Target",
+				"type": "float",
+				"precision": 53,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "AnalyzeCampaigns"
+		}
+	}
+}
